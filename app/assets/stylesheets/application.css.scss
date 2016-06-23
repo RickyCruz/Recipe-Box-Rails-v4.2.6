@@ -27,6 +27,7 @@ $red: #DB6161;
 
 body {
   background: rgb(235, 238, 243);
+  padding-top: 70px;
 }
 
 .main_content {
@@ -54,6 +55,9 @@ body {
     font-size: 25px;
     a {
       color: $red;
+      &:hover, &:focus {
+        color: darken($red, 10%);
+      }
     }
   }
 }
@@ -139,21 +143,37 @@ body {
 .form-inline {
   margin-top: 15px;
 }
+
 .form-input {
   width: 65% !important;
   float: left;
 }
+
 .form-button {
   float: left;
   width: 30% !important;
   margin-left: 5%;
 }
+
 .add-button {
   margin-top: 25px;
 }
+
 .radio input[type="radio"],
 .radio-inline input[type="radio"],
 .checkbox input[type="checkbox"],
 .checkbox-inline input[type="checkbox"] {
   margin-left: 0;
+}
+
+.remove-input-margin-top {
+  margin-top: 2.5em !important;
+}
+
+.remove-textarea-margin-top {
+  margin-top: 3.5em !important;
+}
+
+.nested-input-width {
+  width:100% !important;
 }
