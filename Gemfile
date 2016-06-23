@@ -50,6 +50,9 @@ gem 'paperclip', '~> 4.3', '>= 4.3.6'
 # Unobtrusive nested forms handling, using jQuery
 gem 'cocoon', '~> 1.2', '>= 1.2.9'
 
+# Flexible authentication solution for Rails with Warden
+gem 'devise', '~> 4.1', '>= 4.1.1'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
